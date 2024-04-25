@@ -93,11 +93,11 @@
 					"color" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"id" : "obj-31",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 139.075080191734997, 111.0, 22.0 ],
-					"text" : "expr ( 2 * $f1 ) / $f2"
+					"patching_rect" : [ 361.0, 139.075080191734997, 153.0, 22.0 ],
+					"text" : "expr ( ( 2 * $f1 ) - $f2 ) / $f3"
 				}
 
 			}
@@ -109,8 +109,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 491.518951416015625, 139.075080191734997, 255.0, 22.0 ],
-					"text" : "expr sqrt( pow ( $f1\\, 2. ) + pow(( $f2 / 2. )\\, 2 ) )"
+					"patching_rect" : [ 516.518951416015625, 139.282954496495847, 258.0, 22.0 ],
+					"text" : "expr sqrt( pow ( $f1\\, 2. ) + pow(( $f2 / 2. )\\, 2. ) )"
 				}
 
 			}
@@ -125,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 491.5, 80.934317862633435, 179.237902832031295, 52.71703024471509 ],
+					"patching_rect" : [ 516.5, 81.142192167394285, 179.237902832031295, 52.71703024471509 ],
 					"pic" : "img430_2x.png"
 				}
 
@@ -323,14 +323,7 @@
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [ 			{
-				"name" : "img430_2x.png",
-				"bootpath" : "~/Desktop/myClasses/physical-modeling-SS2024/week-04-intro-to-gen",
-				"patcherrelativepath" : ".",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
